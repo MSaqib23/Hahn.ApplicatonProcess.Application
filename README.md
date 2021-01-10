@@ -2,12 +2,10 @@
 
 Steps
 
-1. Extract file Hahn.Solution.rar
-2. Insie Hahn.Solution folder
+1. Extract files Hahn.ApplicatonProcess.Application.rar and Hahn.ApplicationProcess.AureliaUI.rar
+2. Inside Hahn.ApplicatonProcess.Application folder
 
-Hahn.ApplicatonProcess.Application ( .Net 5 Core Web API )
-
-Hahn.ApplicationProcess.AureliaUI
+Hahn.ApplicatonProcess.Application ( .Net 5 Core Web API  Solutions)
 
 3. Hahn.ApplicatonProcess.Application contains
 
@@ -39,7 +37,7 @@ e.	http://localhost:5000/api/Applicant/Delete/2  ( Delete selected id applicant 
 f.	http://localhost:5000/api/Applicant/GetAllCountries ( get all countries name against https://restcountries.eu/rest/v2/all)
 
 4. Hahn.ApplicationProcess.AureliaUI contains
-	front end application which calling backend api to view Applicant profile.
+	Front end application which calling and consuming backend api to view Applicant profile.
 
 Things which are not covered.
 
