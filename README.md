@@ -41,7 +41,7 @@ f.	http://localhost:5000/api/Applicant/GetAllCountries ( get all countries name 
 4. Hahn.ApplicationProcess.AureliaUI contains
 	front end application which calling backend api to view Applicant profile.
 
-Things which is not covered.
+Things which are not covered.
 
 i. Validation on Aurelia forms.
 
