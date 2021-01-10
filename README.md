@@ -13,10 +13,12 @@ Hahn.ApplicationProcess.AureliaUI
 	Hahn.ApplicatonProcess.December2020.Web ( Web Api controller actions)
 	Hahn.ApplicatonProcess.Application.sln ( Solution file )
 Open the solution with .sln file and build and run after restore dotnet packages )
+
 It will open browser with 
 http://localhost:5000/swagger/index.html
 
 Here you can test all API's. 
+
 a.	http://localhost:5000/api/Applicant/GetAll  ( it wil return 2 predefined Applicant response )
 b.	http://localhost:5000/api/Applicant/Get/2   ( get the specific id applicant profile )
 c.	http://localhost:5000/api/Applicant/Add     ( post to save applicant profile if successfull)
