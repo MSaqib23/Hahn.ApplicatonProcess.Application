@@ -3,15 +3,22 @@
 Steps
 
 1. Extract file Hahn.Solution.rar
-2. Insie Hahn.Solution folder 
+2. Insie Hahn.Solution folder
+
 Hahn.ApplicatonProcess.Application ( .Net 5 Core Web API )
+
 Hahn.ApplicationProcess.AureliaUI
 
 3. Hahn.ApplicatonProcess.Application contains
+
 	Hahn.ApplicatonProcess.December2020.Data  ( restore dotnet packages . EF Core Inmemory Database )
+	
 	Hahn.ApplicatonProcess.December2020.Domain ( business logics and DTO models )
+	
 	Hahn.ApplicatonProcess.December2020.Web ( Web Api controller actions)
+	
 	Hahn.ApplicatonProcess.Application.sln ( Solution file )
+	
 Open the solution with .sln file and build and run after restore dotnet packages )
 
 It will open browser with 
@@ -35,9 +42,13 @@ f.	http://localhost:5000/api/Applicant/GetAllCountries ( get all countries name 
 	front end application which calling backend api to view Applicant profile.
 
 Things which is not covered.
+
 i. Validation on Aurelia forms.
+
 ii. Aurelia-I18N localization and internationlization features
+
 iii. Bundling via Webpack
+
 iv. Dialog Box for popping messages.
 
 
